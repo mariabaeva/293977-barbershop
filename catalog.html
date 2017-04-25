@@ -52,26 +52,26 @@
             <section>
                 <form action="#" method="get">
                     <fieldset>
-                        <legend> Производители:</legend>
-                        <input type="checkbox" name="brand-name" checked><label>Baxter of California</label>
-                        <input type="checkbox" name="brand-name"><label>MR Natty</label>
-                        <input type="checkbox" name="brand-name" checked><label>Suavecito</label>
-                        <input type="checkbox" name="brand-name"><label>Malin+Goetz</label>
-                        <input type="checkbox" name="brand-name"><label>Murray's</label>
-                        <input type="checkbox" name="brand-name" checked><label>American Crew</label>
+                        <legend>Производители:</legend>
+                        <input type="checkbox" id="baxter" name="baxter" checked><label for="baxter">Baxter of California</label>
+                        <input type="checkbox" id="natty" name="natty"><label for="natty">MR Natty</label>
+                        <input type="checkbox" id="suavecito" name="suavecito" checked><label for="suavecito">Suavecito</label>
+                        <input type="checkbox" id="malingoetz" name="malingoetz"><label for="malingoetz">Malin+Goetz</label>
+                        <input type="checkbox" id="murrays" name="murrays"><label for="murrays">Murray's</label>
+                        <input type="checkbox" id="american" name="american" checked><label for="american">American Crew</label>
                     </fieldset>
                     <fieldset>
                         <legend>Группы товаров:</legend>
-                        <input type="radio" name="product-group"><label>Бритвенные принадлежности</label>
-                        <input type="radio" name="product-group" checked><label>Средства для ухода</label>
-                        <input type="radio" name="product-group"><label>Аксессуары</label>
+                        <input type="radio" id="shaving" name="product-group"><label for="shaving">Бритвенные принадлежности</label>
+                        <input type="radio" id="care" name="product-group" checked><label for="care">Средства для ухода</label>
+                        <input type="radio" id="accessories" name="product-group"><label for="accessories">Аксессуары</label>
                     </fieldset>
                     <button type="submit">Показать</button>
                 </form>
             </section>
             <article class="product-card">
                 <a href="#"><img src="img/baxter-travel-set.jpg"></a>
-                <a href="#">Набор для путешествий "Baxter of California"</a>
+                <a href="#"><h2>Набор для путешествий "Baxter of California"</h2></a>
                 <div class="purchase">
                     <span>2900руб.</span>
                     <a class="purchase" href="#">Купить</a>
@@ -79,7 +79,7 @@
             </article>
             <article class="product-card">
                 <a href="#"><img src="img/baxter-conditioner.jpg"></a>
-                <a href="#">Увлажняющий кондиционер "Baxter of California"</a>
+                <a href="#"><h2>Увлажняющий кондиционер "Baxter of California"</h2></a>
                 <div class="purchase">
                     <span>750руб.</span>
                     <a class="purchase" href="#">Купить</a>
@@ -87,7 +87,7 @@
             </article>
             <article class="product-card">
                 <a href="#"><img src="img/suavecito-gel.jpg"></a>
-                <a href="#">Гель для волос "SUAVECITO"</a>
+                <a href="#"><h2>Гель для волос "SUAVECITO"</h2></a>
                 <div class="purchase">
                     <span>290руб.</span>
                     <a class="purchase" href="#">Купить</a>
@@ -95,7 +95,7 @@
             </article>
             <article class="product-card">
                 <a href="#"><img src="img/american-clay.jpg"></a>
-                <a href="#">Глина для укладки волос "American Crew"</a>
+                <a href="#"><h2>Глина для укладки волос "American Crew"</h2></a>
                 <div class="purchase">
                     <span>500руб.</span>
                     <a class="purchase" href="#">Купить</a>
@@ -103,7 +103,7 @@
             </article>
             <article class="product-card">
                 <a href="#"><img src="img/american-gel.jpg"></a>
-                <a href="#">Гель для волос "American Crew"</a>
+                <a href="#"><h2>Гель для волос "American Crew"</h2></a>
                 <div class="purchase">
                     <span>300руб.</span>
                     <a class="purchase" href="#">Купить</a>
@@ -111,7 +111,7 @@
             </article>
             <article class="product-card">
                 <a href="#"><img src="img/baxter-shaving-set.jpg"></a>
-                <a href="#">Набор для бритья "Baxter of California"</a>
+                <a href="#"><h2>Набор для бритья "Baxter of California"</h2></a>
                 <div class="purchase">
                     <span>3900руб.</span>
                     <a class="purchase" href="#">Купить</a>
@@ -120,7 +120,7 @@
             <div class="catalog-pages">
                 <ul> 
                     <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
+                    <li><a>2</a></li>
                     <li><a href="#">3</a></li>
                     <li><a href="#">4</a></li>
                 </ul>
@@ -146,5 +146,5 @@
                 </section>
             </div>    
         </footer>
-  </body>
+    </body>
 </html>
